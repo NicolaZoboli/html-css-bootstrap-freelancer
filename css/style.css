@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole di debug */
+
+[class*="col-"] {
+  height: 100%;
+  border: solid 1px #000;
+  background-color: pink;
+}
+
+.row {
+  height: 300px;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+section {
+  /* padding: 0 10%; */
+  margin-bottom: 40px;
+}
