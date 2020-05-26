@@ -109,15 +109,53 @@ header .navbar-default .navbar-toggle .icon-bar {
 
 /* sezione about */
 
-.about-all {
-  height: 400px;
+#about .row {
   background-color: #1abc9c;
+  color: white;
+  padding: 20px 0;
+}
+
+#about .row .title {
+  height: 40%;
+}
+
+#about .divider-star {
+  height: 0;
+  margin: 40px 0;
+}
+
+#about .divider-star .col-xs-2.line {
+  border-bottom: 3px solid white;
+}
+
+#about .about-text {
+  height: 60%;
+  margin-bottom: 20px;
+  padding: 0 30px;
+}
+
+#about button {
+  color: white;
+  background-color: #1abc9c;
+  border: 1px solid white;
 }
 
 /* sezione contact-me */
 
 .contact-me-all {
   height: 400px;
+}
+
+#contact-me .form-group input,
+#contact-me .form-group textarea {
+  border: none;
+  border-bottom: solid 1px #ccc;
+  box-shadow: none;
+}
+
+#contact-me .btn-default {
+  color: white;
+  background-color: #1abc9c;
 }
 
 /* sezione footer */
