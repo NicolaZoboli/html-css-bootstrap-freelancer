@@ -114,9 +114,13 @@ header .navbar-default .navbar-toggle .icon-bar {
   background-color: #1abc9c;
 }
 
+/* sezione contact-me */
+
 .contact-me-all {
   height: 400px;
 }
+
+/* sezione footer */
 
 .footer-all {
   height: 300px;
