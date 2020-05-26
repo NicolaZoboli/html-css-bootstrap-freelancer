@@ -142,10 +142,6 @@ header .navbar-default .navbar-toggle .icon-bar {
 
 /* sezione contact-me */
 
-.contact-me-all {
-  height: 400px;
-}
-
 #contact-me .form-group input,
 #contact-me .form-group textarea {
   border: none;
@@ -153,26 +149,72 @@ header .navbar-default .navbar-toggle .icon-bar {
   box-shadow: none;
 }
 
+#contact-me .form-group ::placeholder {
+  color: #2c3e50;
+}
+
 #contact-me .btn-default {
   color: white;
   background-color: #1abc9c;
 }
 
+#contact-me .divider-star {
+  height: 0;
+  margin: 40px 0;
+}
+
+#contact-me .divider-star .col-xs-2.line {
+  border-bottom: 3px solid #2c3e50;
+}
+
 /* sezione footer */
 
-.footer-all {
-  height: 300px;
+footer {
+  color: white;
 }
 
 .footer-up {
-  height: 200px;
+  height: 70%;
   background-color: #3a546d;
+  padding: 30px 0;
+}
+
+.footer-up .row:first-child {
+  padding-left: 60px;
+}
+
+.footer-up .row:last-child {
+  padding-right: 60px;
+}
+
+.footer-up .row div {
+  margin-bottom: 30px;
+}
+
+.footer-up .icons span a {
+  color: white;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.footer-up .icons span i {
+  font-size: 20px;
+}
+
+.footer-up .row span .green a{
+  color: #1db297;
 }
 
 .footer-down {
-  height: 100px;
+  height: 30%;
   background-color: #2c3e50;
+  padding: 30px;
 }
+
 
 
 
